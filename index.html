@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <picture class="card__image">
+          <source
+            media="(min-width: 1020px)"
+            srcset="assets/images/image-header-desktop.jpg"
+          />
+          <img src="assets/images/image-header-mobile.jpg" alt="Office" />
+        </picture>
+        <div class="card__body">
+          <h2 class="card__title">
+            Get <span class="highlight">insights</span> that help your business
+            grow.
+          </h2>
+          <p class="card__description">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <ul class="card__stats">
+            <li class="card__stats__item">
+              <p class="card__stats__stat">10k+</p>
+              <p class="card__stats__heading">COMPANIES</p>
+            </li>
+            <li class="card__stats__item">
+              <p class="card__stats__stat">314</p>
+              <p class="card__stats__heading">TEMPLATES</p>
+            </li>
+            <li class="card__stats__item">
+              <p class="card__stats__stat">12M+</p>
+              <p class="card__stats__heading">QUERIES</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.linkedin.com/in/menard-maranan/" target="_blank"
+        >Menard Maranan</a
+      >.
+    </footer>
+  </body>
+</html>
