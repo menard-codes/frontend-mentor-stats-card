@@ -3,11 +3,13 @@
 @font-face {
   font-family: "Inter";
   src: url(../fonts/Inter-VariableFont_wght.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Lexend Deca";
   src: url(../fonts/LexendDeca-VariableFont_wght.ttf);
+  font-display: swap;
 }
 
 :root {
